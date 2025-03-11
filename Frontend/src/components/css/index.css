@@ -1,0 +1,243 @@
+*{
+    margin:0;
+    padding:0;
+   
+}
+
+.link{
+    text-decoration: none;
+    color:white;
+}
+.employee{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color:#edebf2;
+   
+}
+.employee-form{
+  
+    border-radius: 20px;
+    display:flex;
+    background-color:white;
+    
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+    width: 500px; 
+}
+.employee-dashboard{
+    height: 70px;
+    display: flex;
+    background-color: #343a40;
+    color: white;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+#dashboard-text{
+    font-size:25px;
+}
+img{
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.img  :hover{
+    opacity:0.5;
+}
+.employee-title{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.employee-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width:80%;
+    border-radius: 10px;
+    color: rgb(32,33,36);
+    font-size: 16px;
+    height: 18px;
+    margin: 1px 1px 0 1px;
+    padding: 13px 15px;
+    z-index: 1
+}
+.employee-form div{
+    width:100%;
+}
+
+.employee-align{
+    display: flex;
+    width: 100%;
+    align-items: start;
+    flex-direction: column;
+    justify-content: start;
+    padding: 20px 0px 20px 20px;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.btn-submit{
+    margin-right:37px;
+
+}
+
+
+#btn{
+    color:white;
+    background-color:#007bff;
+    padding:10px;
+    border:none;
+    width:70px;
+    border-radius:5px ;
+}
+#btn:hover{
+    opacity: 0.7;
+}
+#btn2{
+    color:white;
+    background-color:#dc3545;
+    border:none;
+    width: 70px;
+    padding:10px;
+    border-radius:5px ;
+}
+#btn2:hover{
+    opacity: 0.7;
+}
+#btn3{
+    color:white;
+    background-color:#28a745;
+    padding:10px;  
+    border:none;  
+    border-radius:5px ;
+}
+#btn3 :hover{
+    opacity:0.7;
+   
+}
+
+.employee-table{
+    display:flex;
+    overflow-x:auto;
+
+    align-items: center;
+    justify-content:center ;
+    flex-direction: column;
+}
+.employee-read{
+    padding:0px 30px;
+    padding-top:30px;
+}
+.employee-db{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+   
+}
+.employee-create{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: row;
+    
+}
+
+
+#customers {
+    margin:20px;
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    
+  }
+  
+  #customers td, #customers th {
+    
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+
+
+  .input-container {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Adds some space between the input and the button */
+}
+
+.input-container input {
+    flex: 1; /* Ensures input takes up most of the space */
+}
+
+.add-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.add-btn:hover {
+    opacity: 0.7;
+}
+
+.entry{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.pick-wheel-btn{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+  /* table {
+    border-collapse:collapse;
+      width: 100%;
+}
+
+thead, td {
+       border: 1px solid black;
+       padding: 8px;
+       text-align: center;
+
+} */
